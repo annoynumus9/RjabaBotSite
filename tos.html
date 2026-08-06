@@ -1,77 +1,214 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Terms of Service</title>
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-                line-height: 1.6;
-                margin: 20px;
-            }
-            h1 {
-                text-align: center;
-                color: #333;
-            }
-            p {
-                margin-bottom: 15px;
-            }
-            .container {
-                width: 80%;
-                margin: 0 auto;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <h1>Terms of Service (ToS)</h1>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service | Rjava Bot</title>
 
-            <h2>1. Introduction</h2>
-            <p>Welcome to Auro! Incorporated verification system! By using this service, you agree to abide by the following Terms of Service (ToS) as outlined below. If you do not agree with any part of these terms, please do not use the service.</p>
-            <p>These terms are subject to change at any time, and it is your responsibility to review them periodically.</p>
+    <style>
+        :root {
+            --bg: #101218;
+            --card: #1b1f2a;
+            --accent: #5865F2;
+            --text: #ffffff;
+            --secondary: #b5b8c5;
+            --border: #2d3445;
+        }
 
-            <h2>2. Use of the Service</h2>
-            <p>By using Auro! Helper, you agree to the following:</p>
-            <ul>
-                <li>You must be at least 13 years old to use this service, in compliance with Discord's Terms of Service.</li>
-                <li>You agree to provide accurate and truthful information, including your Discord ID and Roblox ID.</li>
-                <li>You must abide by all applicable laws and regulations while using the service.</li>
-            </ul>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
 
-            <h2>3. Account Verification</h2>
-            <p>To use the verification system, you must authenticate your Roblox account by following the verification link sent to you via Discord DM.</p>
-            <p>The verification process links your Discord ID to your Roblox account.</p>
-            <p>We reserve the right to remove your verification status if we detect any fraudulent activity or violation of our rules.</p>
+        body {
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            padding: 40px;
+        }
 
-            <h2>4. Data Collection and Use</h2>
-            <p>We collect and store the following information: Discord ID, Roblox ID.</p>
-            <p>This data is used exclusively for the purpose of verifying your Roblox account with Discord and is not shared with third parties without your consent, except as required by law.</p>
-            <p>You may request the deletion of your data at any time, but we will retain your Discord and Roblox IDs even after deletion if you have already linked them, as required by our verification process.</p>
+        .container {
+            max-width: 900px;
+            margin: auto;
+        }
 
-            <h2>5. Discord’s Terms of Service</h2>
-            <p>By using this service, you also agree to abide by <a href="https://discord.com/terms" target="_blank">Discord’s Terms of Service</a> and <a href="https://discord.com/privacy" target="_blank">Discord’s Privacy Policy</a>. We do not control Discord’s actions, and any use of Discord outside of our service is governed by their terms.</p>
+        h1 {
+            margin-bottom: 8px;
+            font-size: 2.5rem;
+        }
 
-            <h2>6. Prohibited Activities</h2>
-            <p>While using Auro! Helper, you agree not to engage in the following activities:</p>
-            <ul>
-                <li>Spamming or sending unsolicited messages through the verification system.</li>
-                <li>Attempting to exploit or manipulate the verification system for malicious purposes.</li>
-                <li>Violating the rights of others, including intellectual property rights.</li>
-                <li>Engaging in harassment, abuse, or any form of disruptive behavior.</li>
-            </ul>
+        .subtitle {
+            color: var(--secondary);
+            margin-bottom: 40px;
+        }
 
-            <h2>7. Limitation of Liability</h2>
-            <p>Auro! Helper and its creators are not liable for any loss, damage, or legal issues arising from the use of this verification service. By using this service, you agree to hold Auro! Helper harmless from any such claims.</p>
+        section {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+        }
 
-            <h2>8. Termination</h2>
-            <p>We reserve the right to terminate or suspend your access to the verification service at any time, without notice, if you violate these Terms of Service.</p>
+        h2 {
+            color: var(--accent);
+            margin-bottom: 15px;
+        }
 
-            <h2>9. Changes to the Terms</h2>
-            <p>We may update or modify these Terms of Service at any time. All changes will be effective immediately upon posting the revised Terms of Service. It is your responsibility to review these terms regularly.</p>
+        p {
+            margin-bottom: 15px;
+        }
 
-            <h2>10. Contact Us</h2>
-            <p>If you have any questions about these Terms of Service, please contact us at auroraplasmasystems@gmail.com.</p>
-        </div>
-    </body>
-    </html>
+        ul {
+            margin-left: 25px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            color: var(--secondary);
+            font-size: .9rem;
+        }
+
+        a {
+            color: #8aa4ff;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Terms of Service</h1>
+    <p class="subtitle">
+        Effective Date: January 1, 2026
+    </p>
+
+    <section>
+        <h2>1. Acceptance</h2>
+
+        <p>
+            By using the Rjava Discord Bot ("the Bot"), connecting your Roblox account,
+            or using any related services, you agree to these Terms of Service.
+        </p>
+    </section>
+
+    <section>
+        <h2>2. Description of Service</h2>
+
+        <p>The Bot provides features including, but not limited to:</p>
+
+        <ul>
+            <li>Discord moderation tools</li>
+            <li>Server management</li>
+            <li>Logging and audit features</li>
+            <li>Roblox account verification</li>
+            <li>Roblox group integration</li>
+            <li>Role synchronization between Roblox and Discord</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>3. Roblox Integration</h2>
+
+        <p>
+            If you choose to link a Roblox account, you authorize the Bot to
+            verify ownership of that account and use publicly available Roblox
+            information necessary to provide its features.
+        </p>
+
+        <p>
+            Linked Roblox accounts may be used for verification, permission
+            management, rank synchronization, and moderation features.
+        </p>
+    </section>
+
+    <section>
+        <h2>4. Acceptable Use</h2>
+
+        <p>You agree not to:</p>
+
+        <ul>
+            <li>Abuse or exploit the Bot.</li>
+            <li>Attempt unauthorized access to systems or data.</li>
+            <li>Use the Bot for illegal activities.</li>
+            <li>Circumvent moderation or security systems.</li>
+            <li>Interfere with other users or servers.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>5. Data</h2>
+
+        <p>
+            The Bot may store information necessary to provide its services,
+            including Discord IDs, Roblox IDs, server configuration, moderation
+            logs, and verification information.
+        </p>
+
+        <p>
+            Additional information regarding data collection and retention can
+            be found in the Privacy Policy.
+        </p>
+    </section>
+
+    <section>
+        <h2>6. Availability</h2>
+
+        <p>
+            The Bot is provided "as is." Features may change, become unavailable,
+            or be removed at any time without prior notice.
+        </p>
+    </section>
+
+    <section>
+        <h2>7. Limitation of Liability</h2>
+
+        <p>
+            The developers are not liable for any direct or indirect damages,
+            data loss, moderation decisions, or service interruptions resulting
+            from use of the Bot.
+        </p>
+    </section>
+
+    <section>
+        <h2>8. Termination</h2>
+
+        <p>
+            Access to the Bot or its services may be suspended or revoked for
+            misuse, abuse, or violations of these Terms.
+        </p>
+    </section>
+
+    <section>
+        <h2>9. Changes</h2>
+
+        <p>
+            These Terms may be updated periodically. Continued use of the Bot
+            after changes take effect constitutes acceptance of the revised Terms.
+        </p>
+    </section>
+
+    <section>
+        <h2>10. Contact</h2>
+
+        <p>
+            Questions regarding these Terms may be directed to the Bot's
+            development team through the official Discord server.
+        </p>
+    </section>
+
+    <footer>
+        © 2026 Rjava Bot. All rights reserved.
+    </footer>
+
+</div>
+
+</body>
+</html>

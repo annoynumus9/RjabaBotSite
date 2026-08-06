@@ -3,11 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rjava Bot</title>
+    <title>Rjava Conversation</title>
+
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #101218;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .chat {
+            width: min(700px, 90%);
+            background: #1b1f2a;
+            border-radius: 16px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+        }
+
+        .message {
+            padding: 14px 18px;
+            margin: 12px 0;
+            border-radius: 12px;
+            line-height: 1.5;
+            font-size: 1.05rem;
+        }
+
+        .bot {
+            background: #5865f2;
+            text-align: left;
+        }
+
+        .real {
+            background: #2b2d31;
+            text-align: right;
+        }
+
+        .name {
+            font-weight: bold;
+            margin-right: 8px;
+        }
+    </style>
 </head>
+
 <body>
-    <p>[Bot Rjava]: I'm not faking being Rjava, I promise.</p>
-    <p>[Real Rjava]: Who do we have here?</p>
-    <p>[Bot Rjava]: Oh no.</p>
+    <div class="chat">
+        <div class="message bot">
+            <span class="name">[Bot Rjava]:</span>
+            I'm not faking being Rjava, I promise.
+        </div>
+
+        <div class="message real">
+            <span class="name">[Real Rjava]:</span>
+            Who do we have here?
+        </div>
+
+        <div class="message bot">
+            <span class="name">[Bot Rjava]:</span>
+            Oh no.
+        </div>
+    </div>
 </body>
 </html>

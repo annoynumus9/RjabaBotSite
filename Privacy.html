@@ -3,86 +3,268 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy</title>
+    <title>Privacy Policy | Rjava Bot</title>
+
     <style>
+        :root {
+            --bg: #101218;
+            --card: #1b1f2a;
+            --accent: #5865F2;
+            --text: #ffffff;
+            --secondary: #b5b8c5;
+            --border: #2d3445;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            padding: 40px;
         }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+        }
+
         h1 {
-            text-align: center;
-            color: #333;
+            margin-bottom: 8px;
+            font-size: 2.5rem;
         }
+
+        .subtitle {
+            color: var(--secondary);
+            margin-bottom: 40px;
+        }
+
+        section {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: var(--accent);
+            margin-bottom: 15px;
+        }
+
         p {
             margin-bottom: 15px;
         }
+
         ul {
-            margin-bottom: 15px;
-            list-style-type: none;
+            margin-left: 24px;
         }
-        ul li {
-            margin-bottom: 10px;
+
+        li {
+            margin-bottom: 8px;
         }
-        .container {
-            width: 80%;
-            margin: 0 auto;
+
+        a {
+            color: #8aa4ff;
         }
-        h2 {
-            color: #2E8B57;
+
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            color: var(--secondary);
+            font-size: .9rem;
+        }
+
+        code {
+            background: rgba(255,255,255,.08);
+            padding: 2px 6px;
+            border-radius: 4px;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Privacy Policy</h1>
 
+<div class="container">
+
+    <h1>Privacy Policy</h1>
+
+    <p class="subtitle">
+        Effective Date: January 1, 2026
+    </p>
+
+    <section>
         <h2>1. Introduction</h2>
-        <p>At Auro! Incorporated, we value and respect your privacy. This Privacy Policy describes the information we collect, how we use it, and the precautions we take to safeguard your personal data when you use our verification service.</p>
-        <p>By using our service, you agree to the terms outlined in this policy. We are committed to being transparent about our data practices and to ensuring that your personal data is handled securely.</p>
 
-        <h2>2. Data Collection</h2>
-        <p>We collect the following personal information when you use our verification service:</p>
+        <p>
+            This Privacy Policy explains what information Rjava Bot ("the Bot")
+            collects, how it is used, and the choices available to users.
+        </p>
+
+        <p>
+            By using the Bot or its associated services, including Roblox account
+            verification, you acknowledge this Privacy Policy.
+        </p>
+    </section>
+
+    <section>
+        <h2>2. Information We Collect</h2>
+
+        <p>The Bot may collect and store information including:</p>
+
         <ul>
-            <li><strong>Discord ID</strong>: A unique identifier assigned to your Discord account. This is necessary to link your Discord account to the Roblox account for verification purposes.</li>
-            <li><strong>Roblox ID</strong>: A unique identifier for your Roblox account. This is linked with your Discord ID for the purpose of confirming that your Roblox account is correctly associated with your Discord account.</li>
+            <li>Discord User IDs</li>
+            <li>Discord Server IDs</li>
+            <li>Discord Channel IDs</li>
+            <li>Discord Role IDs</li>
+            <li>Discord Message IDs (when required)</li>
+            <li>Roblox User IDs</li>
+            <li>Roblox usernames</li>
+            <li>Verification status</li>
+            <li>Server configuration</li>
+            <li>Moderation settings</li>
+            <li>Audit logs and moderation records</li>
+            <li>Command usage required to operate the Bot</li>
         </ul>
-        <p>We do not collect any sensitive personal information such as passwords, addresses, or payment details.</p>
 
-        <h2>3. Data Use</h2>
-        <p>The information we collect is used for the following purposes:</p>
+        <p>
+            We do not intentionally collect passwords or authentication credentials.
+        </p>
+    </section>
+
+    <section>
+        <h2>3. Roblox Integration</h2>
+
+        <p>
+            If you link your Roblox account, the Bot may store the association
+            between your Discord account and Roblox account in order to provide
+            verification and synchronization features.
+        </p>
+
+        <p>
+            Public Roblox profile information may be accessed as needed to perform
+            requested actions.
+        </p>
+    </section>
+
+    <section>
+        <h2>4. How Information Is Used</h2>
+
+        <p>Your information may be used to:</p>
+
         <ul>
-            <li><strong>Account Verification</strong>: We use your Discord ID and Roblox ID to verify that both accounts belong to the same user, facilitating the linking process.</li>
-            <li><strong>Service Integrity</strong>: We use the data to ensure the integrity and accuracy of the verification process, ensuring that your Discord account matches the Roblox account for security purposes.</li>
-            <li><strong>Support and Communication</strong>: In cases where you request assistance or clarification, we may use your data to provide support or answer questions related to your verification status.</li>
+            <li>Provide moderation features.</li>
+            <li>Verify Roblox account ownership.</li>
+            <li>Synchronize Discord roles with Roblox groups.</li>
+            <li>Store server settings.</li>
+            <li>Maintain moderation logs.</li>
+            <li>Prevent abuse and unauthorized use.</li>
+            <li>Diagnose bugs and improve reliability.</li>
         </ul>
+    </section>
 
-        <h2>4. Data Retention</h2>
-        <p>We retain your Discord ID and Roblox ID as long as you are using our verification service. This information is kept to ensure the accuracy of the verification process. In the event that you choose to stop using the service, your data will be retained for a period of time for auditing and verification purposes.</p>
-        <p>Once you request data deletion, we will remove all personal information except for your Discord and Roblox IDs. These IDs will be retained only for security and audit purposes and will not be used for any other purpose.</p>
+    <section>
+        <h2>5. Data Sharing</h2>
 
-        <h2>5. Data Deletion</h2>
-        <p>You have the right to request the deletion of your data at any time. To request deletion, please contact us directly at <a href="mailto:auroraplasmasystems@gmail.com">auroraplasmasystems@gmail.com</a>.</p>
-        <p>Upon receiving your request, we will promptly delete all personal data linked to your account, except for your Discord ID and Roblox ID. These IDs will be retained to maintain the integrity of the verification system and for security purposes only. This retention is necessary to ensure that the verification process remains accurate and transparent.</p>
+        <p>
+            Information collected by the Bot is not sold to third parties.
+        </p>
 
-        <h2>6. Security</h2>
-        <p>We take your privacy and the security of your data seriously. Our platform implements industry-standard security measures to protect your personal information from unauthorized access, alteration, or destruction. These measures include encryption, secure data storage, and regular audits to ensure the security of our systems.</p>
-        <p>However, please be aware that while we take all reasonable steps to protect your data, no system can guarantee 100% security. We cannot ensure the security of your data during transmission or storage due to the inherent risks associated with the internet.</p>
+        <p>
+            Information may only be shared when required by law, necessary to
+            investigate abuse, or with service providers that assist in operating
+            the Bot.
+        </p>
+    </section>
 
-        <h2>7. Data Sharing</h2>
-        <p>We do not sell, rent, or share your personal information with third parties, except in the following cases:</p>
-        <ul>
-            <li><strong>With your consent</strong>: If you consent to share your data with a third party for a specific purpose.</li>
-            <li><strong>Legal Compliance</strong>: If required by law, we may share your data with law enforcement or other government agencies.</li>
-        </ul>
-        <p>We do not use your personal data for targeted advertising or any other commercial purpose.</p>
+    <section>
+        <h2>6. Data Retention</h2>
 
-        <h2>8. Changes to this Privacy Policy</h2>
-        <p>We may update this Privacy Policy from time to time to reflect changes in our practices, technologies, or legal obligations. If we make significant changes, we will notify you through our service or other appropriate means. Please review this Privacy Policy regularly to stay informed about how we are protecting your data.</p>
+        <p>
+            Information is retained only for as long as reasonably necessary to
+            operate the Bot, provide requested services, comply with legal
+            obligations, or resolve disputes.
+        </p>
 
-        <h2>9. Contact Us</h2>
-        <p>If you have any questions, concerns, or requests related to your personal data or this Privacy Policy, please contact us at <a href="mailto:auroraplasmasystems@gmail.com">auroraplasmasystems@gmail.com</a>.</p>
+        <p>
+            Server administrators may remove the Bot at any time, after which
+            associated server data may be deleted according to our retention
+            practices.
+        </p>
+    </section>
 
-    </div>
+    <section>
+        <h2>7. Security</h2>
+
+        <p>
+            Reasonable technical and organizational measures are used to help
+            protect stored information. However, no system can guarantee complete
+            security.
+        </p>
+    </section>
+
+    <section>
+        <h2>8. Your Rights</h2>
+
+        <p>
+            Depending on applicable law, you may have the right to request access
+            to, correction of, or deletion of information associated with your
+            account.
+        </p>
+
+        <p>
+            Requests may be submitted through the Bot's official support server.
+        </p>
+    </section>
+
+    <section>
+        <h2>9. Third-Party Services</h2>
+
+        <p>
+            The Bot interacts with third-party services including Discord and
+            Roblox. Your use of those services is governed by their respective
+            privacy policies and terms.
+        </p>
+    </section>
+
+    <section>
+        <h2>10. Children's Privacy</h2>
+
+        <p>
+            The Bot is not intended to knowingly collect personal information from
+            individuals except as necessary to provide its services through
+            Discord and Roblox.
+        </p>
+    </section>
+
+    <section>
+        <h2>11. Policy Updates</h2>
+
+        <p>
+            This Privacy Policy may be updated periodically. Continued use of the
+            Bot after changes become effective constitutes acceptance of the
+            updated policy.
+        </p>
+    </section>
+
+    <section>
+        <h2>12. Contact</h2>
+
+        <p>
+            Questions regarding this Privacy Policy may be directed to the Bot's
+            official support server or other published support channels.
+        </p>
+    </section>
+
+    <footer>
+        © 2026 Rjava Bot. All rights reserved.
+    </footer>
+
+</div>
+
 </body>
 </html>
